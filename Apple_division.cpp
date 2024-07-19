@@ -16,6 +16,7 @@ ll minimum_difference(int index, vector<ll> &p, ll sum1, ll sum2,ll N){
 int main(){
     int N;
     cin >> N;
+    int j;
     vector<ll> p(N);
     ll totalSum = 0;
     for(int i = 0; i < N; i++){
